@@ -219,3 +219,5 @@ const numbers = 5;
 
 console.log(`Even nums for count of ${numbers} is : ${printevenNums(numbers)}`)
 
+let num = 5;
+let num_2 = 6;
