@@ -237,5 +237,15 @@ rev_Arr(orgin_arr);
 
 
 
-//to find factorial of a number : 
+// //to find factorial of a number : 
 
+const find_factorial = (x) => {
+  if (x === 0 || x === 1) {
+    return 1; // Base case
+  } else {
+    return x * find_factorial(x - 1); // Recursive case
+  }
+};
+
+console.log(find_factorial(4)); // Output: 24
+console.log(find_factorial(5)); // Output: 120
