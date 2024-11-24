@@ -249,3 +249,21 @@ const find_factorial = (x) => {
 
 console.log(find_factorial(4)); // Output: 24
 console.log(find_factorial(5)); // Output: 120
+
+
+// Count Number of Digits in a Numbers:
+
+function countDigits(num){
+  let count = 0;
+  
+  num = Math.abs(num);  // Ensure the number is positive for correct counting
+  
+  for(;num > 0; num = Math.floor(num/10)){
+      count++
+  }
+  
+  return count;
+}
+
+let x = 12345690;
+console.log(countDigits(x))//output wil be 8
