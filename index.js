@@ -266,4 +266,45 @@ function countDigits(num){
 }
 
 let x = 12345690;
-console.log(countDigits(x))//output wil be 8
+console.log(countDigits(x))//output wil be 8;
+
+
+//Fibonacci Series up to N Terms:
+
+function fibonacciSeries(n) {
+  let fib = [0, 1]; // Initialize the first two terms
+  
+  // Generate the series up to n terms
+  for (let i = 2; i < n; i++) {
+      fib.push(fib[i - 1] + fib[i - 2]); // Sum of the last two terms
+  }
+  
+  // Handle cases where n < 2
+  return fib.slice(0, n);
+}
+
+// Input: Number of terms
+let n = 10;
+
+// Output the series
+console.log(fibonacciSeries(n)); // Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
