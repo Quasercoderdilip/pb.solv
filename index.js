@@ -290,15 +290,15 @@
 // console.log(fibonacciSeries(n)); // Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34];
 
 
-let n = 5;
-let res = 1;
+// let n = 5;
+// let res = 1;
 
-for(let i=1; i<=n; i++){
-    res *=i;
-    console.log(res);
-}
+// for(let i=1; i<=n; i++){
+//     res *=i;
+//     console.log(res);
+// }
 
-console.log(res)
+// console.log(res)
 
 
 
