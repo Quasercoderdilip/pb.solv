@@ -27,7 +27,7 @@ console.log(`og value of age : ${data.age}`);// Original value remains unchanged
 
 const Arr = ['dk','ravi','shakthi','agnel'];
 
-const newArr = JSON.parse(JSON.stringify(Arr));
+const newArr = JSON.parse(JSON.stringify(Arr));//so this json.parse method and json.stringify method is used to copy the array and object in js as new values.
 
 newArr[2] = 'dinesh';
 
