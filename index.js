@@ -302,7 +302,23 @@
 
 
 
+//Reverse a string without in-built methods : 
+ 
+let OriginStr = 'APPLE_TREE';
+let Rev = '';
 
+
+function reverseString(str){
+
+    let MaxIndex = (str.length - 1);
+    for(i = MaxIndex; i >=0 ; i--){
+        Rev += str.charAt(i);
+    }
+
+    console.log(Rev);
+}
+
+reverseString(OriginStr);
 
 
 
