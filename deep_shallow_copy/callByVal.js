@@ -31,6 +31,6 @@ const newArr = JSON.parse(JSON.stringify(Arr));//so this json.parse method and j
 
 newArr[2] = 'dinesh';
 
-console.log(Arr);
-console.log(newArr);
+console.log(`og array : ${Arr}`);
+console.log(`new array : ${newArr}`);
 
