@@ -20,3 +20,17 @@ const data = {
 copy(JSON.parse(JSON.stringify(data)));
 console.log(`og value of age : ${data.age}`);// Original value remains unchanged
   
+
+
+//lets see example for array :
+
+
+const Arr = ['dk','ravi','shakthi','agnel'];
+
+const newArr = JSON.parse(JSON.stringify(Arr));
+
+newArr[2] = 'dinesh';
+
+console.log(Arr);
+console.log(newArr);
+
