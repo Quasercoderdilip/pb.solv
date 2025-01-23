@@ -30,7 +30,41 @@
  
 //5:
 
-// console.log([0,1,2,3].map(num =>{
+// console.log([1,2,3].map(num =>{
 //     if (num > 0) return;
 //     return num * 2;
 // }))
+
+
+// function fr(){
+//     return ;
+// }
+
+//console.log(fr())
+
+// 'use strict'
+// {
+//     function gt(){
+//         console.log('xyz')
+//     }
+// }
+
+// gt()
+
+
+// function abc(a, b){
+//     'use strict';
+
+//     a = 100;
+//     b = 200;
+
+//     return arguments[0] + arguments[1];
+//     console.log(a + b)
+// }
+
+// console.log(abc(400 ,800))
+
+const arr = [1,2,3,4,5,6,7,8]
+
+const ar = arr.find(nums => nums > 4)
+console.log(ar)  
